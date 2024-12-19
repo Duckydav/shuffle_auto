@@ -20,3 +20,20 @@
 1. **Single Click**: Select a Shuffle2 node and press **V** to display a short label.
 2. **Double Click**: Press **V** twice or double-click the node to show detailed information.
 3. Labels will dynamically update as you adjust node settings.
+
+## ***Installation***
+
+1. Place the `shulle.py` file in the **`.nuke`** directory:
+   - **Windows**: `%HOME%/.nuke/`
+   - **macOS/Linux**: `~/.nuke/`
+
+2. Add the following command to your `menu.py` file located in the same `.nuke` directory:
+
+   ```python
+   import nuke
+   import shuffle
+
+   # Add a custom menu in Nuke
+   dd_tools_menu = nuke.menu('Nuke').addMenu('DD Tools')
+   dd_tools_menu.addCommand('Shuffle Auto', 'shuffle.run()', 'V')
+
