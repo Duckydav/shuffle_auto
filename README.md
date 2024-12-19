@@ -2,6 +2,8 @@
 
 **Shuffle Auto** simplifies the use of **Shuffle2** nodes in Nuke by automatically displaying connections directly in the Node Graph.
 
+![shuffle_auto_demo](https://github.com/user-attachments/assets/6bc66fc8-3e3b-4e3c-8cb2-422f76404d77)
+
 ### Features
 
 - **Single Click (Shortcut: V)**: 
